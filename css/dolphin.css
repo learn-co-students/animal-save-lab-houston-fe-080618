@@ -20,3 +20,19 @@ html {
 
 /* Write your solution here */
 
+@media screen and (max-width: 1090px)and (min-width: 642px){
+   
+    #ring {
+      background: url(../images/water-ring.png) no-repeat top left;
+  width: 1200px;
+  height: 750px;
+  position: relative;
+  top: -10px;
+  left: -8px;
+  z-index: 1;
+    }
+   #dolphin {
+     top: 50px;
+     transform: rotate(-0.25turn);
+      }
+  }
